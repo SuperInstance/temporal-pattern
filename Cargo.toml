@@ -1,0 +1,15 @@
+[package]
+name = "temporal-pattern"
+version = "0.1.0"
+edition = "2024"
+description = "Temporal pattern library for agent specification — response, precedence, existence, absence, scope, and combination patterns over proposition traces"
+license = "MIT"
+repository = "https://github.com/SuperInstance/temporal-pattern"
+keywords = ["temporal", "pattern", "specification", "agent", "verification"]
+categories = ["science", "data-structures"]
+
+[dev-dependencies]
+serde_json = "1"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
